@@ -9,16 +9,11 @@ We are not responsible for what you do with this utility.<br>
 • <code>apt update</code><br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
-• <code>git clone https://github.com/Mrx-Anonym/Pomegranate-Bomber</code><br>
-• <code>sh Pomegranate-Bomber/install.sh</code><br>
-• <code>Pomegranate-Bomber *phone*</code><br>
+• <code>git clone https://github.com/Mrx-Anonym/Bomber-Beta </code><br>
+• <code>sh Bomber-Beta /install.sh</code><br>
 <br>
 <b>for example:</b><br>
-<code>Pomegranate-Bomber 71231234455</code><br><br>
-# How to update?
-• <code>Pomegranate-Bomber update</code><br>
-# How to start?
-• <code>Pomegranate-Bomber *phone*</code><br>
+<code>Bomber-Beta  71231234455</code><br><br>
 # Donate
 <b>Who does not mind a penny on the development of the project:</b><br>
 <b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<br>
