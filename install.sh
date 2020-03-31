@@ -24,7 +24,7 @@ then
 	cp ~/Bomber-Beta /spammer.py /data/data/com.termux/files/usr/bin/Bomber-Beta 
 	dos2unix /data/data/com.termux/files/usr/bin/Bomber-Beta 
 	chmod 777 /data/data/com.termux/files/usr/bin/Bomber-Beta 
-	Bomber-Beta 
+	python3 spammer.py 
 else
 	if [ $numb = "2" ]
 	then
@@ -40,7 +40,7 @@ else
 			cp ~/Bomber-Beta /spammer.py /usr/bin/Bomber-Beta 
 			dos2unix /usr/bin/Bomber-Beta Bomber-Beta 
 			chmod 777 /usr/bin/Bomber-Beta 
-			Bomber-Beta 
+			python3 spammer.py  
 		fi
 	else
 		if [ $numb = "3" ] 
@@ -53,7 +53,7 @@ else
 			cp ~/Bomber-Beta /spammer.py /usr/bin/Bomber-Beta 
 			dos2unix /usr/bin/Bomber-Beta 
 			chmod 777 /usr/bin/Bomber-Beta 
-			Bomber-Beta 
+			python3 spammer.py 
 		else
 			echo "Invalid input"
 		fi
