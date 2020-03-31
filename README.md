@@ -11,6 +11,8 @@ We are not responsible for what you do with this utility.<br>
 • <code>apt install git</code><br>
 • <code>git clone https://github.com/Mrx-Anonym/Bomber-Beta </code><br>
 • <code>sh Bomber-Beta /install.sh</code><br>
+# How to start?
+• <code>python3 Beta-Bomber/spammer.py</code><br>
 # Donate
 <b>Who does not mind a penny on the development of the project:</b><br>
 <b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<br>
