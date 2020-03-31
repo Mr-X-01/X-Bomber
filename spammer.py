@@ -341,7 +341,6 @@ def Main():
 									except:
 										from termcolor import colored
 										print(Fore.RED + '''[-] Failed to send!''')
-														print(Fore.RED + '''[-] Failed to send!''')
 									try:
 										requests.post('https://rutube.ru/api/accounts/sendpass/phone', data={'phone': '+'+_phone})
 										print(Fore.GREEN + '''[+] Spam has been sent!''')
