@@ -15,7 +15,7 @@ from colorama import Fore, Back, Style
 os.system("clear")
 def Main():
 	global info
-	logo = Fore.GREEN + '''
+	logo = Fore.RED + '''
 ######################################
 #------#8888888888888888888888#------#
 ##----##88       888       888##----##
@@ -26,8 +26,7 @@ def Main():
 ###--###88  888   88  888   88###--###
 ##----##88       888       888##----##
 #------#8888888888888888888888#------#
-#-#-#-#-#-#-#-#-#----#-#-#-#-#-#-#-#-#'''+Style.RESET_ALL+Fore.RED+'''
-#-#-#-#-#-#-#-#-#----#-#-#-#-#-#-#-#-#
+######################################
 ##-----##88888888888888888888##-----##
 ###---###88  @Mrxanon      88###---###
 ####-####88  @NexlsHere    88####-####
@@ -40,7 +39,7 @@ def Main():
 		while True:
 			os.system("clear")
 			print(logo)
-			print ("\n1) SMS Spammer\n2) Update Spammer\n3) Exit\n")
+			print (Fore.GREEN"\n1) SMS Spammer\n2) Update Spammer\n3) Exit\n"+Style.RESET_ALL)
 			input1 = input(Fore.BLUE+"Enter number: "+Style.RESET_ALL)
 			if input1 == "1":
 				try:
