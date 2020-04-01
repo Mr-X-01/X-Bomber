@@ -39,7 +39,7 @@ def Main():
 		while True:
 			os.system("clear")
 			print(logo)
-			print (Fore.GREEN"\n1) SMS Spammer\n2) Update Spammer\n3) Exit\n"+Style.RESET_ALL)
+			print (Fore.GREEN+"\n1) SMS Spammer\n2) Update Spammer\n3) Exit\n"+Style.RESET_ALL)
 			input1 = input(Fore.BLUE+"Enter number: "+Style.RESET_ALL)
 			if input1 == "1":
 				try:
