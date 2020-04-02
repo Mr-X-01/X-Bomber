@@ -15,7 +15,7 @@ We are not responsible for what you do with this utility.<br>
 • <code>python3 Beta-Bomber/spammer.py</code><br>
 # Donate
 <b>Who does not mind a penny on the development of the project:</b><br>
-<b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<br>
-<b>Sberbank: 4276 6000 2498 8046<b>
+<b>Bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<br>
+<b>Visa: 4276 6000 2498 8046<b>
 <br>
 There will be questions - Telegram: <a href="https://t.me/Mrxanon"> @Mrxanon</a><br>
