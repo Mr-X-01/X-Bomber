@@ -10,7 +10,7 @@ We are not responsible for what you do with this utility.<br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
 • <code>git clone https://github.com/Mrx-Anonym/Beta-Bomber </code><br>
-• <code>sh Bomber-Beta /install.sh</code><br>
+• <code>sh Beta-Bomber/install.sh</code><br>
 # How to start?
 • <code>python3 Beta-Bomber/spammer.py</code><br>
 # Donate
