@@ -15,7 +15,7 @@ from colorama import Fore, Back, Style
 os.system("clear")
 def Main():
 	global info
-	logo = Fore.RED + '''
+	logo = Fore.GREEN + '''
 ######################################
 #------#8888888888888888888888#------#
 ##----##88       888       888##----##
@@ -33,6 +33,14 @@ def Main():
 ####-####88  SMS Spammer   88####-####
 ###---###88  V.0.5 (beta)  88###---###
 ##-----##88888888888888888888##-----##
+######################################'''+Style.RESET_ALL+Fore.RED+'''
+######################################
+## Before you start using this      ##
+## utility,we want to say -         ##
+## that you do everything           ##
+## at your own peril and risk!      ##
+## We are not responsible           ##
+## for what you do with this utilit!##
 ######################################'''+Style.RESET_ALL
 	def main():
 		global info
