@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # spammer v0.5 beta
 # Author: @Mrxanon
-# https://github.com/Mrx-Anonym/Bomber-Beta
+# https://github.com/Mrx-Anonym/Beta-Bomber
 import requests
 import random
 import datetime
@@ -594,7 +594,7 @@ def Main():
 			elif input1 == '2':
 				a=input("Are you sure you want to update? (y/n) ")
 				if a=="y":
-					cmd = os.system("cd && rm -rf ~/Bomber-Beta && git clone https://github.com/Mrx-Anonym/Bomber-Beta && sh ~/Bomber-Beta/install.sh")
+					cmd = os.system("cd && rm -rf ~/Beta-Bomber && git clone https://github.com/Mrx-Anonym/Beta-Bomber && sh ~/Beta-Bomber/install.sh")
 					exit()
 				else:
 					print("Canceled")
