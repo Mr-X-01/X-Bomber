@@ -18,9 +18,9 @@ then
 	pkg install dos2unix
 	pip3 install requests
 	pip3 install colorama
-	cp ~/Beta-Bomber /spammer.py /data/data/com.termux/files/usr/bin/Beta-Bomber
-	dos2unix /data/data/com.termux/files/usr/bin/Beta-Bomber
-	chmod 777 /data/data/com.termux/files/usr/bin/Beta-Bomber
+	cp ~/Beta-Bomber /spammer.py /data/data/com.termux/files/usr/bin/Beta-Bomber 
+	dos2unix /data/data/com.termux/files/usr/bin/Beta-Bomber 
+	chmod 777 /data/data/com.termux/files/usr/bin/Beta-Bomber 
 	python3 Beta-Bomber/spammer.py 
 else
 	if [ $numb = "2" ]
@@ -34,8 +34,8 @@ else
 			apt install python3 python3-pip
 			pip3 install requests
 			pip3 install colorama
-			cp ~/Beta-Bomber /spammer.py /usr/bin/Beta-Bomber
-			dos2unix /usr/bin/Beta-Bomber Beta-Bomber
+			cp ~/Beta-Bomber /spammer.py /usr/bin/Beta-Bomber 
+			dos2unix /usr/bin/Beta-Bomber Beta-Bomber 
 			chmod 777 /usr/bin/Beta-Bomber 
 			python3 Beta-Bomber/spammer.py   
 		fi
@@ -47,9 +47,9 @@ else
 			apk add dos2unix
 			pip3 install requests
 			pip3 install colorama
-			cp ~/Beta-Bomber /spammer.py /usr/bin/Beta-Bomber
-			dos2unix /usr/bin/Beta-Bomber
-			chmod 777 /usr/bin/Beta-Bomber
+			cp ~/Beta-Bomber /spammer.py /usr/bin/Beta-Bomber 
+			dos2unix /usr/bin/Beta-Bomber 
+			chmod 777 /usr/bin/Beta-Bomber 
 			python3 Beta-Bomber/spammer.py  
 		else
 			echo "Invalid input"
