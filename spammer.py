@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # spammer v0.5 beta
-# Author: @Mrxanon and @NexlsHere
+# Author: @Mrxanon
 # https://github.com/Mrx-Anonym/Bomber-Beta
 import requests
 import random
@@ -29,7 +29,6 @@ def Main():
 ######################################
 ##-----##88888888888888888888##-----##
 ###---###88  @Mrxanon      88###---###
-####-####88  @NexlsHere    88####-####
 ####-####88  SMS Spammer   88####-####
 ###---###88  V.0.5 (beta)  88###---###
 ##-----##88888888888888888888##-----##
