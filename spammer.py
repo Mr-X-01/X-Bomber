@@ -601,7 +601,7 @@ def Main():
 					print("Canceled")
 			
 			elif input1 == '3':
-				print (Fore.BLUE+"\nGood bye!\n"+Style.RESET_ALL)
+				print (Fore.BLUE+"\nGood bye!\n𝕶𝖊𝖊𝖕 𝕾𝖒𝖎𝖑𝖊  - ᴍʀ. x\n"+Style.RESET_ALL)
 				exit()
 	main()
 Main()	
