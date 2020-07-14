@@ -37,7 +37,7 @@ else
 			cp ~/X-Bomber /spammer.py /usr/bin/X-Bomber 
 			dos2unix /usr/bin/X-Bomber X-Bomber 
 			chmod 777 /usr/bin/X-Bomber 
-			python3 X-Bomber/spammer.py   
+			python3 spammer.py   
 		fi
 	else
 		if [ $numb = "3" ] 
