@@ -21,7 +21,7 @@ then
 	cp ~/X-Bomber /spammer.py /data/data/com.termux/files/usr/bin/X-Bomber 
 	dos2unix /data/data/com.termux/files/usr/bin/X-Bomber 
 	chmod 777 /data/data/com.termux/files/usr/bin/X-Bomber 
-	python3 X-Bomber/spammer.py 
+	python3 spammer.py 
 else
 	if [ $numb = "2" ]
 	then
@@ -50,7 +50,7 @@ else
 			cp ~/X-Bomber /spammer.py /usr/bin/X-Bomber 
 			dos2unix /usr/bin/X-Bomber 
 			chmod 777 /usr/bin/X-Bomber 
-			python3 X-Bomber/spammer.py  
+			python3 spammer.py  
 		else
 			echo "Invalid input"
 		fi
