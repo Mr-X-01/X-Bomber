@@ -20,7 +20,7 @@ then
 	pip3 install colorama
 	cp ~/X-Bomber /spammer.py /data/data/com.termux/files/usr/bin/X-Bomber 
 	dos2unix /data/data/com.termux/files/usr/bin/X-Bomber 
-	chmod 777 /data/data/com.termux/files/usr/bin/X-Bomber 
+	chmod +x /data/data/com.termux/files/usr/bin/X-Bomber 
 	python3 spammer.py 
 else
 	if [ $numb = "2" ]
