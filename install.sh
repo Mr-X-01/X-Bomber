@@ -12,10 +12,10 @@ echo "#########################################"
 read numb
 if [ $numb = "1" ]
 then
-	pkg install python
-	pkg install python3
-	pkg install python3-pip
-	pkg install dos2unix
+	apt install python
+	apt install python3
+	apt install python3-pip
+	apt install dos2unix
 	pip3 install requests
 	pip3 install colorama
 	cp ~/X-Bomber /spammer.py /data/data/com.termux/files/usr/bin/X-Bomber 
