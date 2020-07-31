@@ -18,10 +18,10 @@ then
 	apt install dos2unix
 	pip3 install requests
 	pip3 install colorama
-	cp ~/X-Bomber /spammer.py /data/data/com.termux/files/usr/bin/X-Bomber 
-	dos2unix /data/data/com.termux/files/usr/bin/X-Bomber 
-	chmod +x /data/data/com.termux/files/usr/bin/X-Bomber
-	X-Bomber
+	cp ~/X-Bomber /spammer.py /data/data/com.termux/files/usr/bin/X-Bomber/spammer.py 
+	dos2unix /data/data/com.termux/files/usr/bin/X-Bomber/spammer.py
+	chmod +x /data/data/com.termux/files/usr/bin/X-Bomber/spammer.py
+	python3 /X-Bomber/spammer.py
 else
 	if [ $numb = "2" ]
 	then
@@ -34,10 +34,10 @@ else
 			apt install python3 python3-pip
 			pip3 install requests
 			pip3 install colorama
-			cp ~/X-Bomber /spammer.py /usr/bin/X-Bomber 
-			dos2unix /usr/bin/X-Bomber X-Bomber 
-			chmod 777 /usr/bin/X-Bomber 
-			python3 spammer.py   
+			cp ~/X-Bomber /spammer.py /usr/bin/X-Bomber/spammer.py
+			dos2unix /usr/bin/X-Bomber /X-Bomber/spammer.py 
+			chmod 777 /usr/bin/X-Bomber/spammer.py
+			python3 /X-Bomber/spammer.py   
 		fi
 	else
 		if [ $numb = "3" ] 
@@ -48,9 +48,9 @@ else
 			pip3 install requests
 			pip3 install colorama
 			cp ~/X-Bomber /spammer.py /usr/bin/X-Bomber 
-			dos2unix /usr/bin/X-Bomber 
-			chmod 777 /usr/bin/X-Bomber 
-			python3 spammer.py  
+			dos2unix /usr/bin/X-Bomber/spammer.py
+			chmod 777 /usr/bin/X-Bomber/spammer.py
+			python3 /X-Bomber/spammer.py 
 		else
 			echo "Invalid input"
 		fi
