@@ -593,7 +593,7 @@ def Main():
 			elif input1 == '2':
 				a=input("Are you sure you want to update? (y/n) ")
 				if a=="y":
-					cmd = os.system("cd && rm -rf ~/X-Bomber && git clone https://github.com/Mr-X-01/X-Bomber && sh ~/X-Bomber/install.sh")
+					cmd = os.system("cd && rm -rf ~/X-Bomber && git clone https://github.com/Mr-X-01/Bomber && sh ~/Bomber/install.sh")
 					exit()
 				else:
 					print("Canceled")
